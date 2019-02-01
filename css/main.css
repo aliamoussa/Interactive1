@@ -14,7 +14,7 @@
     color: navy;
     font-weight: bold;
     font-style: normal;
-    word-spacing: all;
+    word-spacing: inherit;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
   }
