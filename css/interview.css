@@ -60,7 +60,7 @@ margin-top:40px;
 margin-bottom: 20px;
 }
 
-.desc{ margin-left: 250px; font-family: 'Raleway', sans-serif;
+.desc{ margin-left: 200px; font-family: 'Raleway', sans-serif;
 color: white;
 padding-top: 15px;
 font-size: 20px;}
@@ -72,4 +72,4 @@ img{height: 400px;
 width: 470px;
 margin-left: 600px;}
 
-p {padding-bottom: 30px;}
+p {padding-bottom: 100px;}
