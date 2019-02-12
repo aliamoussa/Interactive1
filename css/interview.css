@@ -13,14 +13,14 @@ body{ background: #f0ead6;
 
     #header {background: #464646;
     padding-top:100px;
-padding-left:250px;
-padding-right:250px;
-padding-bottom:60px;}
+padding-left:200px;
+padding-right:200px;
+padding-bottom:100px;}
 
     h1 {
         color: white;
         background:#464646;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Avenir', monospace;
 font-size: 60px;
 text-align: center;
 }
