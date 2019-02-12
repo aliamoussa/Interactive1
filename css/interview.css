@@ -1,20 +1,75 @@
-body {
-    background-color: #FFFFFF;
-    background-image: url(http://assets.tumblr.com/images/x.gif?v=1);
-    background-attachment: fixed;
-    background-repeat: repeat;
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+   
+      
+body{ background: #f0ead6; 
+    }
+
+    #container { background-color:#f0ead6; 
+    }
+
+    #header {background: #464646;
+    padding-top:100px;
+padding-left:250px;
+padding-right:250px;
+padding-bottom:60px;}
+
+    h1 {
+        color: white;
+        background:#464646;
+    font-family: 'Major Mono Display', monospace;
+font-size: 60px;
+text-align: center;
 }
 
-body, p {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    padding: 0px;
-    margin: 0px;
-    color: #000000;
+
+    a { text-decoration: none; font-family: 'Raleway', sans-serif;
+color: white; text-align:center; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #464646;
 }
 
-body {
-    display: block;
-    margin: 8px;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+li a:hover {
+  background-color: #111;
+}
+    a:hover { color: #f0ead6; }
+
+    h2 { color: #464646;
+        font-size: 40px;
+font-family: 'Major Mono Display', monospace;
+font-size: 30px;
+margin-left:600px;
+margin-top:40px;
+margin-bottom: 20px;
+}
+
+.desc{ margin-left: 250px; font-family: 'Raleway', sans-serif;
+color: white;
+padding-top: 15px;
+font-size: 20px;}
+
+p {width: 500px; font-family: 'Raleway', sans-serif;
+margin-left: 600px;}
+
+img{height: 400px;
+width: 470px;
+margin-left: 600px;}
+
+p {padding-bottom: 30px;}
