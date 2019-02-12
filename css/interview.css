@@ -11,7 +11,7 @@ body{ background: #f0ead6;
     #container { background-color:#f0ead6; 
     }
 
-    #header {background: #464646;
+    #header {background: eggshell;
     padding-top:100px;
 padding-left:200px;
 padding-right:200px;
@@ -19,8 +19,8 @@ padding-bottom:100px;}
 
     h1 {
         color: white;
-        background:#464646;
-    font-family: 'Avenir', monospace;
+        background: eggshell;
+    font-family: 'Avenir', avenir;
 font-size: 60px;
 text-align: center;
 }
@@ -34,7 +34,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #464646;
+  background-color: eggshell;
 }
 
 
