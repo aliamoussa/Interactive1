@@ -16,7 +16,8 @@ body {
 #canvas2 {
         width: 500px;
         height: 300px;
-        position: 50%;
+        position: center;
+        z-index: -1;
         background: blue;
 }
 
