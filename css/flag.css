@@ -5,10 +5,18 @@
 body {
         background: white;
 }
+
 #canvas {
         width: 500px;
         height: 300px;
         position: center;
+        background: red;
+}
+
+#canvas2 {
+        width: 500px;
+        height: 300px;
+        position: 50%;
         background: red;
 }
 
