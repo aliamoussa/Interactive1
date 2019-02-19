@@ -20,3 +20,9 @@ body {
         background: blue;
         z-index: -1;
 }
+
+#star {
+        position: absolute;
+        left: 100px;
+        top: 150px;
+}
