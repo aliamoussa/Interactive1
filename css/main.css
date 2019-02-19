@@ -1,11 +1,7 @@
- /* reset styles */
-  
   * {
     margin: 0px;
     padding: 0px;
   }
-  
-  /* begin styles */
   
   body {
     font-family: 'everson mono', 'Spot Mono', 'Courier', monospace;
@@ -14,6 +10,7 @@
     color: navy;
     font-weight: bold;
     font-style: normal;
+    position: center;
     word-spacing: inherit;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
