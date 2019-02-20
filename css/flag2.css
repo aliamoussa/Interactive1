@@ -1,0 +1,13 @@
+* {
+        margin: 100px; padding: 100px;
+}
+
+body {
+        background: black;
+}
+
+#canvas2 {
+        width: 500px;
+        height: 300px;
+        background: white;
+}
