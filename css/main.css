@@ -3,12 +3,11 @@
   body {
     font-family: futura;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 15px;
     color: navy;
     font-weight: bold;
     font-style: normal;
     position: center;
-    word-spacing: inherit;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
   }
