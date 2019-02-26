@@ -1,15 +1,11 @@
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 body {
-    background: black;
+    background: red;
 }
 #desktop {
     display: inline;
-    color: white;
+    color: red;
 }
 #tablet,
 #mobile,
@@ -19,45 +15,49 @@ body {
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: grey;
+        background: red;
     }
     #tablet {
         display: inline;
-        color: white;
+        color: red;
     }
     #desktop,
     #mobile,
     #print {
         display: none;
+
     }
 }
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: white;
+        background: red;
     }
     #mobile {
         display: inline;
-        color: black;
+        color: red;
     }
     #desktop,
     #tablet,
     #print {
         display: none;
     }
+
+    img {
+        width: 100%
+        height: 100%;
 }
 /* print */
 @media print {
     body {
-        background: white;
+        background: red;
     }
     #print {
         display: inline;
-        color: black;
+        color: red;
     }
     #desktop,
     #tablet,
     #mobile {
         display: none;
     }
-}
