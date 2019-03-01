@@ -1,0 +1,34 @@
+body {
+	background-color: #f5f5dc;}
+
+a {
+  color: black;
+  font-family: avenir;
+  font-size: 100px;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.inner-shape {
+  	width: 600px;
+  	height: 70px;
+  	background: lightblue;
+  	float: left;
+}
+
+.outer-shape {
+	width: 200px;
+	height: 200px;
+	background: pink;
+}
+
+
+div:hover ~ div {
+	background: darkblue;
+}
+
+.outer-shape:hover .inner-shape:nth-child(even) {
+	background: darkblue;
+}
