@@ -18,7 +18,7 @@ img {
 body {
   margin:auto;
   background: red;
-  -webkit-animation: mymove 8s infinite;
+  -webkit-animation: mymove 6s infinite;
   animation: mymove 3s infinite;
 }
 
