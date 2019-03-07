@@ -18,8 +18,8 @@ img {
 body {
   margin:auto;
   background: red;
-  -webkit-animation: mymove 10s infinite;
-  animation: mymove 5s infinite;
+  -webkit-animation: mymove 8s infinite;
+  animation: mymove 3s infinite;
 }
 
 .overlay {
