@@ -208,7 +208,21 @@ div.verticalright4{
 	grid-row-end: span 2;
 }
 
+div.verticaltop1{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
 
+div.verticalbot1{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: span 3;
+}
 
 
 
