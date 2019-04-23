@@ -111,9 +111,6 @@ img {
   opacity: 1;
 }
 
-
-
-
 #myImg:hover {opacity: 0.8;}
 
 /* The Modal (background) */
@@ -194,7 +191,6 @@ img {
     width: 100%;
   }
 }
-
 
 
 #myImg2:hover {opacity: 0.7;}

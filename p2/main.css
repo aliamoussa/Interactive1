@@ -1,0 +1,232 @@
+
+.letter {
+	position: relative;
+	margin: 10px;
+
+	display: grid;
+	float: left;
+	/* 7X7 Grid */
+	grid-template-columns: 5px 5px 5px 5px 5px 5px 5px;
+	grid-template-rows: 5px 5px 5px 5px 5px 5px 5px;
+	grid-gap: 40px 40px;
+
+	background: transparent;
+	padding:40px;
+}
+
+
+/* letter pieces */
+.letter div {
+	border-radius: 20px;
+	background: blue; 
+}
+
+.letter div.empty {
+	background: transparent;
+}
+
+
+
+
+
+/*Horizontal 7X7*/
+div.horizontaltop{
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: span 7;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+div.horizontalbot {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: span 7;
+	grid-row-start: 7;
+	grid-row-end: 7;
+}
+div.horizontalmid {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+
+/*NEED TO EDIT FOR Horizontal 7X7 GRID*/
+
+
+div.horizontalmid1 {
+	background: blue;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
+
+div.horizontalmid2 {
+	background: blue;
+	grid-column-start: 5;
+	grid-column-end: 8;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
+
+div.horizontalmidhalfright {
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.horizontalbothalfleft {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+div.horizontalmidhalfleft {
+	background: white;
+	grid-column-start:1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+
+
+
+/*Vertical 7X7 Grid*/
+div.verticalleft{
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 7;
+}
+
+div.verticalright{
+	background: blue;
+	grid-column-start: 7;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: span 7;
+}
+
+div.verticalmid{
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: span 2;
+}
+
+div.verticalmidhalfdown{
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: span 2;
+}
+
+
+
+
+/*NEED TO EDIT FOR Vertical 7X7 Grid*/
+div.verticalmid1{
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
+div.verticalmid2{
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: span 2;
+}
+
+div.verticalleft2{
+	background: blue
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: span 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Red Square DONT TOUCH*/
+div.verticalright1{
+	background: red;
+	grid-column-start: 7;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: span 7;
+	transform: translate(-20px,20px);
+	z-index: -1;
+}
+
+div.verticalleft1{
+	background: red;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 7;
+	transform: translate(-20px,20px);
+	z-index: -1;
+}
+
+div.horizontalbot1 {
+	background: red;
+	grid-column-start: 1;
+	grid-column-end: span 7;
+	grid-row-start: 7;
+	grid-row-end: 7;
+	transform: translate(-20px,20px);
+	z-index: -1;
+}
+
+div.horizontaltop1{
+	background: red;
+	grid-column-start: 1;
+	grid-column-end: span 7;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	transform: translate(-20px,20px);
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
