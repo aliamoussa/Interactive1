@@ -161,6 +161,23 @@ div.horizontaltop3 {
 	grid-row-end: 5;
 }
 
+div.horizontaltop4 {
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 8;
+	grid-row-start: 5;
+	grid-row-end: 4;
+}
+
+div.horizontaltop5 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+
 
 
 /*Vertical 7X7 Grid*/
@@ -272,6 +289,13 @@ div.verticalright5{
 	grid-row-end: span 7;
 }
 
+div.verticalright6{
+	background: blue;
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 4;
+	grid-row-end: span 4;
+}
 
 div.verticaltop1{
 	background: blue
