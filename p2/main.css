@@ -313,6 +313,14 @@ div.verticaltop2{
 	grid-row-end: span 4;
 }
 
+div.verticaltop3{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
 div.verticalbot1{
 	background: blue
 	grid-column-start: 1;
@@ -337,7 +345,13 @@ div.verticalbot3{
 	grid-row-end: span 3;
 }
 
-
+div.verticalbot4{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: span 3;
+}
 
 
 
