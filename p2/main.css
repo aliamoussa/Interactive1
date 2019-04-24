@@ -112,6 +112,21 @@ div.horizontalbot4 {
 	grid-row-end: 7;
 }
 
+div.horizontalbot5 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+div.horizontalbot6 {
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 8;
+	grid-row-start: 7;
+	grid-row-end: span 1;
+}
 
 div.horizontalmid5 {
 	background: blue;
@@ -335,6 +350,14 @@ div.verticaltop4{
 	grid-column-end: 5;
 	grid-row-start: 3;
 	grid-row-end: span 3;
+}
+
+div.verticaltop5{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 7;
+	grid-row-end: span 2;
 }
 
 div.verticalbot1{
