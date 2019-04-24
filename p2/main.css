@@ -321,8 +321,21 @@ div.verticalbot1{
 	grid-row-end: span 3;
 }
 
+div.verticalbot2{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: span 3;
+}
 
-
+div.verticalbot3{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 5;
+	grid-row-end: span 3;
+}
 
 
 
