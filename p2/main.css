@@ -233,6 +233,14 @@ div.verticalmid2{
 	grid-row-end: span 2;
 }
 
+div.verticalmid3{
+	background: blue;
+	grid-column-start: 6;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
 div.verticalleft2{
 	background: blue
 	grid-column-start: 4;
