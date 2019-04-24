@@ -321,6 +321,14 @@ div.verticaltop3{
 	grid-row-end: span 3;
 }
 
+div.verticaltop4{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: span 3;
+}
+
 div.verticalbot1{
 	background: blue
 	grid-column-start: 1;
