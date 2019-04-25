@@ -161,6 +161,31 @@ div.horizontalmid8 {
 	grid-row-end: 5;
 }
 
+div.horizontalmid9 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
+
+div.horizontalmid10 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+div.horizontalmid11 {
+	background: blue;
+	grid-column-start: 8;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+
 div.horizontaltop1 {
 	background: blue;
 	grid-column-start: 5;
