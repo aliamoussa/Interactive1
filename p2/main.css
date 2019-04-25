@@ -88,6 +88,7 @@ div.horizontalmid4 {
 	grid-row-end: 4;
 }
 
+
 div.horizontalbot2 {
 	background: blue;
 	grid-column-start: 1;
@@ -148,6 +149,14 @@ div.horizontalmid7 {
 	background: blue;
 	grid-column-start: 5;
 	grid-column-end: 8;
+	grid-row-start: 5;
+	grid-row-end: 5;
+}
+
+div.horizontalmid8 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 4;
 	grid-row-start: 5;
 	grid-row-end: 5;
 }
@@ -358,6 +367,22 @@ div.verticaltop5{
 	grid-column-end: 5;
 	grid-row-start: 7;
 	grid-row-end: span 2;
+}
+
+div.verticaltop6{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+div.verticaltop7{
+	background: blue
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: span 3;
 }
 
 div.verticalbot1{
