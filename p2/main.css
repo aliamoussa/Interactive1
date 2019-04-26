@@ -1,3 +1,20 @@
+p {
+	font-family: avenir;
+	font-size: 20px;
+	color: blue;
+}
+
+
+hr {
+  border:none;
+  border-top:6px dashed;
+  color:red;
+  background-color:#fff;
+  height:20px;
+  width:100%;
+}
+
+
 
 .letter {
 	position: relative;
@@ -11,7 +28,7 @@
 	grid-gap: 40px 40px;
 
 	background: transparent;
-	padding:40px;
+	padding:30px;
 }
 
 
@@ -209,13 +226,6 @@ div.horizontalmid12 {
 	grid-row-end: 5;
 }
 
-div.horizontalmid13 {
-	background: blue;
-	grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 4;
-	grid-row-end: 5;
-}
 
 
 div.horizontaltop1 {
