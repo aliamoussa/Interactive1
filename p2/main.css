@@ -2,16 +2,24 @@ p {
 	font-family: avenir;
 	font-size: 20px;
 	color: blue;
+	padding: 20px;
 }
+
+img {
+	height: 50%;
+	width: 30%;
+	padding: 20px;
+}
+
 
 
 hr {
   border:none;
-  border-top:6px dashed;
+  border-top: 5px dashed;
   color:red;
   background-color:#fff;
-  height:20px;
-  width:100%;
+  height: 20px;
+  width: 100%;
 }
 
 
