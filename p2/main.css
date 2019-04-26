@@ -137,6 +137,14 @@ div.horizontalbot7 {
 	grid-row-end: span 1;
 }
 
+div.horizontalbot8 {
+	background: blue;
+	grid-column-start: 3;
+	grid-column-end: 8;
+	grid-row-start: 7;
+	grid-row-end: span 1;
+}
+
 div.horizontalmid5 {
 	background: blue;
 	grid-column-start: 5;
