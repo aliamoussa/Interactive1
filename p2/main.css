@@ -1,6 +1,6 @@
 p {
 	font-family: avenir;
-	font-size: 20px;
+	font-size: 15px;
 	color: blue;
 	padding: 20px;
 }
@@ -33,7 +33,7 @@ hr {
 	/* 7X7 Grid */
 	grid-template-columns: 5px 5px 5px 5px 5px 5px 5px;
 	grid-template-rows: 5px 5px 5px 5px 5px 5px 5px;
-	grid-gap: 40px 40px;
+	grid-gap: 30px 30px;
 
 	background: transparent;
 	padding:30px;
