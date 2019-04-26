@@ -209,6 +209,14 @@ div.horizontalmid12 {
 	grid-row-end: 5;
 }
 
+div.horizontalmid13 {
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
 
 div.horizontaltop1 {
 	background: blue;
@@ -352,6 +360,22 @@ div.verticalleft6{
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: span 5;
+}
+
+div.verticalleft7{
+	background: blue;
+	grid-column-start: 4;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: span 4;
+}
+
+div.verticalleft8{
+	background: blue;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 4;
 }
 
 div.verticalright2{
