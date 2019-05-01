@@ -169,6 +169,14 @@ div.horizontalbot8 {
 	grid-row-end: span 1;
 }
 
+div.horizontalbot9 {
+	background: blue;
+	grid-column-start: 3;
+	grid-column-end: 8;
+	grid-row-start: 7;
+	grid-row-end: span 1;
+}
+
 div.horizontalmid5 {
 	background: blue;
 	grid-column-start: 5;
@@ -273,6 +281,22 @@ div.horizontaltop5 {
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 1;
+}
+
+div.horizontaltop6 {
+	background: blue;
+	grid-column-start: 3;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+div.horizontaltop7 {
+	background: blue;
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 5;
 }
 
 
@@ -394,6 +418,15 @@ div.verticalleft8{
 	grid-row-start: 1;
 	grid-row-end: span 4;
 }
+
+div.verticalleft9{
+	background: blue;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 7;
+}
+
 
 div.verticalright2{
 	background: blue
