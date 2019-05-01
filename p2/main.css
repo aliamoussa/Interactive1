@@ -451,6 +451,23 @@ div.verticalright8{
 	grid-row-end: span 5;
 }
 
+div.verticalright9{
+	background: blue;
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: span 4;
+}
+
+div.verticalright10{
+	background: blue;
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 1;
+	grid-row-end: span 4;
+}
+
+
 div.verticaltop1{
 	background: blue
 	grid-column-start: 1;
