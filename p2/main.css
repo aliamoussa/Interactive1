@@ -17,10 +17,14 @@ hr {
   border-top: 5px dashed;
   color:red;
   background-color:#fff;
-  height: 20px;
   width: 100%;
+  padding: 20px;
 }
 
+
+.container {
+	margin-bottom: 50px;
+}
 
 
 .letter {
@@ -35,7 +39,7 @@ hr {
 	grid-gap: 30px 30px;
 
 	background: transparent;
-	padding:30px;
+	padding:35px;
 }
 
 
@@ -49,7 +53,32 @@ hr {
 	background: transparent;
 }
 
+div:hover .horizontaltop1{
+transform: translate(0px, 0px);
+transition-timing-function: ease-in;
+transition-duration: 500ms;
+}
 
+div:hover .horizontalbot1 {
+transform: translate(0px, 0px);
+transition-timing-function: ease-in;
+transition-duration: 500ms;
+
+}
+div:hover .verticalleft1{
+transform: translate(0px, 0px);
+transition-timing-function: ease-in;
+transition-duration: 500ms;
+
+}
+
+div:hover .verticalright1 {
+transform: translate(0px, 0px);
+transition-timing-function: ease-in;
+transition-duration: 500ms;
+
+
+}
 
 
 
@@ -592,7 +621,9 @@ div.verticalright1{
 	grid-row-start: 1;
 	grid-row-end: span 7;
 	transform: translate(-20px,20px);
-	z-index: -1;
+	z-index: -1; 
+	transition-timing-function: ease-out;
+transition-duration: 500ms;
 }
 
 div.verticalleft1{
@@ -603,6 +634,8 @@ div.verticalleft1{
 	grid-row-end: span 7;
 	transform: translate(-20px,20px);
 	z-index: -1;
+transition-timing-function: ease-out;
+transition-duration: 500ms;
 }
 
 div.horizontalbot1 {
@@ -613,6 +646,8 @@ div.horizontalbot1 {
 	grid-row-end: 7;
 	transform: translate(-20px,20px);
 	z-index: -1;
+	transition-timing-function: ease-out;
+transition-duration: 500ms;
 }
 
 div.horizontaltop1{
@@ -623,4 +658,6 @@ div.horizontaltop1{
 	grid-row-end: 1;
 	transform: translate(-20px,20px);
 	z-index: -1;
+	transition-timing-function: ease-out;
+transition-duration: 500ms;
 }
